@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Food Mountain | Dessert </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontAwesome/css/all.css">
+ </head>
+ <body class="body-meals">
+  <div class="header" >
+   <a href="index.html" >
+    <i class="fas fa-arrow-left"></i>
+   </a>
+  </div>
+  <div id="meals">
+   <div id="orders">
+    <h1>Choc a block</h1>
+    <img src="images/choc_01.jpg"/>
+    <img src="images/choc_02.jpg"/>
+    <img src="images/choc_03.jpg"/>
+    <img src="images/choc_04.jpg"/>
+    <br/>
+    <p>If you are a chocolate love then you'd definately want to try a thich and mouth watering Choco a block. This dessert will make you to come back for more as if you can not get enough of it!</p
+    <b>Serving size : 16</b>
+    <br/>
+    <br/>
+    <br/>
+    <p>Please choose from the list of extras to add to your order</p>
+
+    <form action="/action_page.php">
+     <label for="extra">Choose a extra:</label>
+     <select name="extra" id="extra">
+      <option value="volvo">Milk Chocolate</option>
+     </select>
+     <br><br>
+     <input type="submit" value="Submit">
+    </form>
+    <br/>
+    <br/>
+    <p>Please feel free to add extra notes/requests for your meal.</p>
+    <form action="/action_page.php" id="usrform">
+      Name: <input type="text" name="usrname">
+            <input type="submit">
+    </form>
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="usrform"> Enter text here...</textarea>
+    <br/>
+    <br/>
+    <br/>
+    <a href="thanks.html">
+      <button>Place order</button>
+    </a>
+   </div>
+  </div>
+ </body>
+</html>

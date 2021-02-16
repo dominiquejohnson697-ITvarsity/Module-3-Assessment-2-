@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Food Mountain | Drink </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontAwesome/css/all.css">
+ </head>
+ <body class="body-meals">
+  <div class="header" >
+   <a href="index.html" >
+    <i class="fas fa-arrow-left"></i>
+   </a>
+  </div>
+  <div id="meals">
+   <div id="orders">
+    <h1>Chinese Firebolt</h1>
+    <img src="images/chinese.jpg"/>
+    <img src="images/chinese_01.jpg"/>
+    <img src="images/chinese_02.jpg"/>
+    <img src="images/chinese03.jpg"/>
+    <br/>
+    <p>Mix, then sip. This is very VERY good. It’s like a modified Roy Rogers, actually. The sweetness of the grenadine goes with the cola (of course), but that lime cordial adds an interesting little bite on the end. Definitely a great change up from the standards we’ve grown tired of making!</p>
+    <b>Serving size : 1</b>
+    <br/>
+    <br/>
+    <br/>
+    <p>Please choose from the list of extras to add to your order</p>
+
+    <form action="/action_page.php">
+     <label for="extra">Choose a extra:</label>
+     <select name="extra" id="extra">
+      <option value="volvo">Maple Syrup</option>
+      <option value="saab">Oreos</option>
+      <option value="opel">Cinnamon</option>
+      <option value="audi">Peppermint</option>
+     </select>
+     <br><br>
+     <input type="submit" value="Submit">
+    </form>
+    <br/>
+    <br/>
+    <p>Please feel free to add extra notes/requests for your meal.</p>
+    <form action="/action_page.php" id="usrform">
+      Name: <input type="text" name="usrname">
+            <input type="submit">
+    </form>
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="usrform"> Enter text here...</textarea>
+    <br/>
+    <br/>
+    <br/>
+    <a href="thanks.html">
+      <button>Place order</button>
+    </a>
+   </div>
+  </div>
+ </body>
+</html>

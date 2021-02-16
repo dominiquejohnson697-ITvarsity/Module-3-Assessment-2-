@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Food Mountain | Starters </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontAwesome/css/all.css">
+ </head>
+ <body class="body-meals">
+  <div class="header" >
+   <a href="index.html" >
+    <i class="fas fa-arrow-left"></i>
+   </a>
+  </div>
+  <div id="meals">
+   <div id="orders">
+    <h1>Raspberry and vanilla pancakes</h1>
+    <img src="images/rasberry.jpg"/>
+    <img src="images/rasberry_01.jpg"/>
+    <img src="images/rasberry_02.jpg"/>
+    <img src="images/rasberry_03.jpg"/>
+    <br/>
+    <p>This Thick and decadent hot chocolate is ultra rich and creamy, it's like drinking chocolate soup. This right here is no ordinary hot chocolate. It's the kind you drink only twice a year, because every sip feels like a sin. But then again it's so good, you'll never want to stop. </p>
+    <b>Serving size : 4</b>
+    <br/>
+    <br/>
+    <br/>
+    <p>Please choose from the list of extras to add to your order</p>
+
+    <form action="/action_page.php">
+     <label for="extra">Choose a extra:</label>
+     <select name="extra" id="extra">
+      <option value="volvo">Maple Syrup</option>
+      <option value="saab">Oreos</option>
+      <option value="opel">Cinnamon</option>
+      <option value="audi">Peppermint</option>
+     </select>
+     <br><br>
+     <input type="submit" value="Submit">
+    </form>
+    <br/>
+    <br/>
+    <p>Please feel free to add extra notes/requests for your meal.</p>
+    <form action="/action_page.php" id="usrform">
+      Name: <input type="text" name="usrname">
+            <input type="submit">
+    </form>
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="usrform"> Enter text here...</textarea>
+    <br/>
+    <br/>
+    <br/>
+    <a href="thanks.html">
+      <button>Place order</button>
+    </a>
+   </div>
+  </div>
+ </body>
+</html>
